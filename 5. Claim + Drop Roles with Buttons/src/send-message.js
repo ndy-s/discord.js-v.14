@@ -18,22 +18,22 @@ const client = new Client({
 
 const roles = [
   {
-    id: '1058030952707784714',
+    id: '1138828696363475005',
     label: 'Red',
   },
   {
-    id: '1058031008655609856',
+    id: '1138828762201473177',
     label: 'Green',
   },
   {
-    id: '1058031040461013093',
+    id: '1138828803242741800',
     label: 'Blue',
   },
 ];
 
 client.on('ready', async (c) => {
   try {
-    const channel = await client.channels.cache.get('1049345076188422226');
+    const channel = await client.channels.cache.get('1138802742740123679');
     if (!channel) return;
 
     const row = new ActionRowBuilder();
