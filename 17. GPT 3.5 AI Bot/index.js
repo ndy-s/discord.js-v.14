@@ -1,4 +1,3 @@
-
 require('dotenv/config');
 const { Client, IntentsBitField } = require('discord.js');
 const { Configuration, OpenAIApi } = require('openai');
@@ -62,7 +61,7 @@ client.on('messageCreate', async (message) => {
       .createChatCompletion({
         model: 'gpt-3.5-turbo',
         messages: conversationLog,
-        // max_tokens: 256, // limit token usage
+        max_tokens: 256, // limit token usage
       })
       .catch((error) => {
         console.log(`OPENAI ERR: ${error}`);
