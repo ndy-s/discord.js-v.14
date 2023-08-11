@@ -12,7 +12,7 @@ const commandsData = [
 
     // Notes: Using this will replace your slash commands so, if you do have slash commands
     // that you're manually registering then it's highly recommended that you use your
-    // SlashCommandBuilder over here or you can just pass in you command objects.
+    // SlashCommandBuilder over here or you can just pass in your command objects.
 
     // new SlashCommandBuilder
 ];
